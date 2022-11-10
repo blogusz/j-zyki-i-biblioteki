@@ -104,11 +104,11 @@ def search(text):
                     found_patterns.append({'ind': x - len(y) + 1, 'pattern': y})  # nasz końcowy wynik
                     # wyświetlamy początkowy indeks wystąpienia wzorca oraz znaleziony wzorzec
         else:
-            state = 0
+            state=0
 
     return found_patterns
     # END search
-
+#
 
 ###################################################### MAIN ############################################################
 
